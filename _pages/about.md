@@ -8,51 +8,90 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+# 👋 About Me
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I am an undergraduate student (from 2023 Fall) at the [Institute for Interdisciplinary Information Sciences (IIIS, Yao Class)](https://iiis.tsinghua.edu.cn/en/), Tsinghua University. 
 
+Currently (Feb 2026 – Aug 2026), I am a research intern at Carnegie Mellon University, where I am fortunate to be advised by Prof. [Ryan O'Donnell](https://www.cs.cmu.edu/~odonnell/), working on high-dimensional expanders (HDX) and their applications to probabilistically checkable proofs (PCPs). Prior to this, I had the great pleasure of working with Prof. [Huacheng Yu](https://www.cs.princeton.edu/~hy2/) on lower bounds for streaming and sketching. I have also greatly enjoyed collaborating with Prof. [Zhengfeng Ji](https://scholar.google.com/citations?user=2uXdu7AAAAAJ) and Prof. [Jian Li](https://people.iiis.tsinghua.edu.cn/~jianli/) at Tsinghua University.
+
+I am broadly interested in **theoretical computer science** and **discrete mathematics**. What fascinates me most is the rich interplay between the two, and I am actively exploring problems at their interface. My current research interests include:
+- Streaming lower bounds and communication complexity
+- Spectral and extremal graph theory
+- Pseudorandomness and additive combinatorics
+- High-dimensional expanders and the algebraic structures behind them.
+
+You can reach me at: `liuyinch23 [at] mails.tsinghua.edu.cn` or `yinchen2 [at] andrew.cmu.edu`.
+
+<!-- Here is my [Curriculum Vitae](files/CV_Yinchen_Liu.pdf). -->
+****
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.07* &nbsp;🎉 Our paper on turnstile streaming vs. linear sketching is accepted to **FOCS 2026**!
+- *2026.05* &nbsp;🎉 Our paper on the lattice isomorphism problem is accepted to **CRYPTO 2026**!
+- *2026.04* &nbsp;🎉 Our paper on qubit minimization for quantum circuits is accepted to **TQC 2026**!
+- *2026.02* &nbsp;✈️ Started a research internship at **Carnegie Mellon University**, advised by Prof. Ryan O'Donnell.
+- *2025.07* &nbsp;🎉 Our paper on adaptivity gaps for stochastic probing is accepted to **FOCS 2025**!
 
-# 📝 Publications 
+# 📝 Publications and Manuscripts
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+*In theoretical computer science, authors are conventionally listed in alphabetical order.*
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+- **Turnstile Streaming Algorithms Might (Still) as Well Be Linear Sketches, for Polynomial-Length Streams** <br>
+  Cheng Jiang, **Yinchen Liu**, Huacheng Yu <br>
+  *To appear in the IEEE Symposium on Foundations of Computer Science (**FOCS**), 2026.* <br>
+  [[arXiv](https://arxiv.org/abs/2604.22052)] [[video](https://www.youtube.com/watch?v=iJFtVe2HqM4)]
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+- **On the Complexity of Minimizing Qubits in Polynomial-Encoded Quantum Circuits** <br>
+  Zhengfeng Ji, **Yinchen Liu**, Zhe'ou Zhou <br>
+  *To appear in the Conference on the Theory of Quantum Computation, Communication and Cryptography (**TQC**), 2026.* <br>
+  [[arXiv](https://arxiv.org/abs/2606.18201)]
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+- **Exploiting the Complexity of Lattice Isomorphism Problem via Irreducible Decomposition** <br>
+  Kaijie Jiang, **Yinchen Liu** <br>
+  *To appear in the International Cryptology Conference (**CRYPTO**), 2026.* <br>
+  [[eprint](https://eprint.iacr.org/2026/1139)]
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- **Adaptivity Gaps for Stochastic Probing with Subadditive Functions** <br>
+  Jian Li, **Yinchen Liu**, Yiran Zhang <br>
+  *In the IEEE Symposium on Foundations of Computer Science (**FOCS**), 2025.* <br>
+  [[arXiv](http://arxiv.org/abs/2504.15547)] [[video](https://www.youtube.com/watch?v=0M3o-TaVdtY)]
+
+- **On the Positive and Negative $p$-Energies of Graphs under Edge Addition** <br>
+  Quanyu Tang, **Yinchen Liu**, Wei Wang <br>
+  *In **Discrete Applied Mathematics**, vol. 388, pp. 25–33, 2026.* <br>
+  [[journal](https://www.sciencedirect.com/science/article/pii/S0166218X26001253)] [[arXiv](https://arxiv.org/abs/2410.09830)]
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- **Chinese National Scholarship** <br> <span class="award-note">Ministry of Education, China · 2024 & 2025</span>
+- **Academic Excellence Scholarship** <br> <span class="award-note">Tsinghua University · 2024 & 2025</span>
+- **Secondary Scholarship for Freshmen** <br> <span class="award-note">Tsinghua University · 2023</span>
+- **S.-T. Yau College Student Mathematics Contest, Merit Award** <br> <span class="award-note">Probability & Statistics track and Algebra & Number Theory track · 2023</span>
+- **Alibaba Global Mathematics Competition, Merit Award** <br> <span class="award-note">2022</span>
+- **Gold Medal, Chinese Mathematical Olympiad (CMO)** <br> <span class="award-note">Qualified for further national team selection · 2020 & 2021</span>
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 📖 Education and Experiences
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+<div class="edu-entry">
+  <img src="images/iiis-logo.png" alt="IIIS, Tsinghua University" class="edu-logo">
+  <div class="edu-text">
+    <span class="edu-date">2023.09 – 2027.06 (expected)</span>
+    <strong>Tsinghua University</strong>, Beijing, China <br>
+    B.Eng., Institute for Interdisciplinary Information Sciences (IIIS, Yao Class) <br>
+    Overall GPA: 4.00/4.00, Rank: 1/91
+  </div>
+</div>
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+<div class="edu-entry">
+  <img src="images/cmu-scs-dragon.gif" alt="School of Computer Science, Carnegie Mellon University" class="edu-logo edu-logo-flip">
+  <div class="edu-text">
+    <span class="edu-date">2026.02 – 2026.08</span>
+    <strong>Carnegie Mellon University</strong>, Pittsburgh, PA, USA <br>
+    Research intern at the Department of Computer Science, advised by Prof. <a href="https://www.cs.cmu.edu/~odonnell/">Ryan O'Donnell</a>
+  </div>
+</div>
+
+# 💼 Academic Service
+- Reviewer for *The Electronic Journal of Combinatorics*, 2026.
+- Reviewer for the *International Cryptology Conference (CRYPTO)*, 2025.

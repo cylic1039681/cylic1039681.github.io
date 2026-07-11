@@ -16,7 +16,11 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# wdm >= 0.2.0 is required to compile on Ruby 3.x
+gem "wdm", ">= 0.2.0" if Gem.win_platform?
+
+# Windows does not ship zoneinfo files, needed since _config.yml sets a timezone
+gem "tzinfo-data", platforms: [:mingw, :x64_mingw, :mswin, :jruby]
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

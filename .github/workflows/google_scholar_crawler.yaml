@@ -1,9 +1,10 @@
 name: Get Citation Data
 
-on: 
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
+# Requires a GOOGLE_SCHOLAR_ID repository secret. Manual-trigger only until a
+# Google Scholar profile exists; restore page_build/schedule triggers after that.
+on:
+ workflow_dispatch:
+
 
 jobs:
   build:

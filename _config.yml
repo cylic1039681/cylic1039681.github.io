@@ -6,9 +6,10 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
+title                    : "Yinchen Liu (刘胤辰)"
+# non-empty description required: otherwise jekyll-github-metadata substitutes the GitHub repo tagline
+description              : "Yinchen Liu's academic homepage — theoretical computer science at IIIS (Yao Class), Tsinghua University."
+repository               : "cylic1039681/cylic1039681.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,14 +22,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Lorem ipsum"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
+  name             : "Yinchen Liu"
+  avatar           : "images/avatar.jpg"
+  bio              : "Undergraduate @ IIIS (Yao Class), Tsinghua University"
   location         : "Beijing, China"
   employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
+  pubmed           :
+  googlescholar    : "https://scholar.google.com/citations?user=fp02aiMAAAAJ"
+  email            : "liuyinch23@mails.tsinghua.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +38,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "cylic1039681"
   google_plus      :
   keybase          :
   instagram        :
@@ -45,7 +46,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  orcid            : "https://orcid.org/0009-0006-1571-3400"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username

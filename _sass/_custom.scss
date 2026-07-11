@@ -1,0 +1,296 @@
+/* ==========================================================================
+   Custom typography & color accents
+   (self-hosted fonts: EB Garamond for headings — matching the CV — with a
+    Georgia body; color A = deep sky blue, color B = warm amber, used as a
+    pair; indigo→violet→amber gradient for flourishes)
+   ========================================================================== */
+
+/* Self-hosted variable fonts */
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/InterVariable.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/InterVariable-Italic.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../fonts/EBGaramond-var.woff2") format("woff2-variations");
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../fonts/EBGaramond-Italic-var.woff2") format("woff2-variations");
+  font-weight: 400 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus ring: keep it for keyboard navigation, hide it for mouse clicks */
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Sidebar name — larger bright-azure Garamond, centered under the avatar */
+.author__name {
+  font-family: $serif;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  color: $color-a;
+}
+
+.sidebar .author__name {
+  font-family: $serif; /* the theme pins sans-serif at this specificity */
+  font-size: 1.5em;
+
+  @include breakpoint($medium) {
+    font-size: 1.75em;
+  }
+}
+
+/* On wide screens the sidebar stacks avatar above name: center both */
+@include breakpoint($large) {
+  .sidebar .author__avatar {
+    text-align: center;
+
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 235px; /* wider than the theme's 175px cap */
+      max-width: 100%;
+    }
+  }
+
+  .sidebar .author__name {
+    text-align: center;
+  }
+}
+
+/* Avatar — rectangular with soft corners so the full photo shows (theme default is a 50% circle) */
+.sidebar .author__avatar img {
+  border-radius: 10px;
+}
+
+/* Sidebar bio — body serif instead of the theme's sans */
+.sidebar .author__bio {
+  font-family: $global-font-family;
+  font-size: 1em;
+}
+
+/* Sidebar profile links (location, email, GitHub, Scholar, ORCID) — body serif.
+   Must target the li directly: the theme's `.sidebar li` rule beats inheritance. */
+.author__urls,
+.sidebar .author__urls li {
+  font-family: $global-font-family;
+}
+
+/* Masthead nav links — body serif to match the content */
+.masthead__menu-item:not(.masthead__menu-home-item) a {
+  font-family: $global-font-family;
+}
+
+/* Masthead brand — same bright azure */
+.masthead__menu-home-item a {
+  font-family: $serif;
+  font-weight: 650;
+  font-size: 1.2em;
+  letter-spacing: 0.01em;
+  color: $color-a;
+}
+
+/* Section headings — larger Garamond with a gradient underline flourish */
+.page__content h1 {
+  font-size: 1.7em;
+  letter-spacing: 0.01em;
+  color: $accent-ink;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 4px;
+    margin-top: 0.22em;
+    border-radius: 2px;
+    background: $accent-gradient;
+  }
+}
+
+.page__content h2,
+.page__content h3 {
+  color: $accent-ink;
+}
+
+/* Content links — A at rest; hover pairs A with B (amber text, A→B underline) */
+.page__content a:not(.btn) {
+  text-decoration: none;
+  background-image: linear-gradient(90deg, rgba($color-a, 0.4), rgba($color-a, 0.4));
+  background-repeat: no-repeat;
+  background-size: 100% 1.5px;
+  background-position: 0 100%;
+  transition: color 0.15s ease-in-out, background-size 0.15s ease-in-out;
+
+  &:hover {
+    color: $color-b;
+    background-image: $accent-gradient-warm;
+    background-size: 100% 2.5px;
+  }
+}
+
+/* Inline code (e.g. the e-mail addresses) — pale A pill */
+.page__content code {
+  padding: 0.1em 0.5em;
+  border: 1px solid mix($color-a, #fff, 22%);
+  border-radius: 999px;
+  background: $color-a-wash;
+  color: $color-a-deep;
+  font-size: 0.82em;
+}
+
+/* Leading dates in News / Education / Awards lists — small round A badges,
+   sitting next to the B-colored bullets */
+.page__content li > em:first-child {
+  font-style: normal;
+  font-family: $monospace;
+  font-size: 0.78em;
+  color: $color-a-deep;
+  background: $color-a-wash;
+  padding: 0.14em 0.55em;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+/* Colored list bullets — B */
+.page__content li::marker {
+  color: $color-b;
+}
+
+/* Publication entries (list items led by a bold title) — hover pairs
+   a B accent bar with a pale A wash */
+.page__content li:has(> strong:first-child) {
+  border-left: 3px solid transparent;
+  border-radius: 4px;
+  padding-left: 0.6em;
+  margin-left: -0.75em;
+  transition: border-color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+
+  &:hover {
+    border-left-color: $color-b;
+    background-color: rgba($color-a, 0.05);
+  }
+}
+
+/* Education entries — school logo beside the text */
+.edu-entry {
+  display: flex;
+  align-items: center;
+  gap: 1.1em;
+  margin: 0.9em 0;
+}
+
+.edu-logo {
+  width: 120px; /* fixed slot so text columns align across entries */
+  height: 64px;
+  object-fit: contain; /* round seals center, wide wordmarks letterbox */
+  flex-shrink: 0;
+}
+
+.edu-text {
+  flex: 1;
+}
+
+.edu-date {
+  float: right;
+  font-size: 0.9em;
+  color: mix($text-color, #fff, 62%); /* same gray as .award-note */
+  white-space: nowrap;
+  margin-left: 0.8em;
+}
+
+/* mirror asymmetric logos (e.g. the SCS dragon) */
+.edu-logo-flip {
+  transform: scaleX(-1);
+}
+
+/* Awards — bold title line with a subdued issuer/year line below */
+.award-note {
+  display: inline-block;
+  color: mix($text-color, #fff, 62%);
+  font-size: 0.9em;
+  margin-top: 0.08em;
+}
+
+/* Text selection — pale A */
+::selection {
+  background: mix($color-a, #fff, 18%);
+  color: $accent-ink;
+}
+
+/* Reading progress bar (element injected by assets/js/fancy.js) */
+#scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  height: 3px;
+  width: 0;
+  background: $accent-gradient;
+  background-size: 100vw 100%; /* gradient spans the viewport, bar reveals it */
+  pointer-events: none;
+}
+
+/* Back-to-top rocket (element injected by assets/js/fancy.js) —
+   A ring at rest, B glow on hover */
+#back-to-top {
+  position: fixed;
+  right: 1.4em;
+  bottom: 1.6em;
+  z-index: 90;
+  width: 44px;
+  height: 44px;
+  border: 1px solid mix($color-a, #fff, 35%);
+  border-radius: 50%;
+  background: #fff;
+  color: $color-a;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba($accent-ink, 0.12);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out, visibility 0.2s, box-shadow 0.2s, border-color 0.2s;
+
+  &.is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  &:hover {
+    border-color: mix($color-b, #fff, 55%);
+    box-shadow: 0 4px 16px rgba($color-b, 0.35);
+    transform: translateY(-2px);
+  }
+
+  span {
+    display: inline-block;
+    transform: rotate(-45deg); /* point the rocket straight up */
+  }
+}
