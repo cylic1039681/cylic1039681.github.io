@@ -83,11 +83,6 @@ button:focus:not(:focus-visible) {
   }
 }
 
-/* Avatar — rectangular with soft corners so the full photo shows (theme default is a 50% circle) */
-.sidebar .author__avatar img {
-  border-radius: 10px;
-}
-
 /* Sidebar bio — body serif instead of the theme's sans */
 .sidebar .author__bio {
   font-family: $global-font-family;
