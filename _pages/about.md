@@ -14,7 +14,7 @@ redirect_from:
 
 I'm a junior undergraduate student (from 2023 Fall) at the [Institute for Interdisciplinary Information Sciences (IIIS, Yao Class)](https://iiis.tsinghua.edu.cn/en/), Tsinghua University. 
 
-Currently, I am visiting Carnegie Mellon University, where I am fortunate to be advised by Prof. [Ryan O'Donnell](https://www.cs.cmu.edu/~odonnell/), working on high-dimensional expanders (HDX) and their applications to probabilistically checkable proofs (PCPs). Prior to this, I had the great pleasure of working with Prof. [Huacheng Yu](https://www.cs.princeton.edu/~hy2/) on streaming lower bounds. I have also greatly enjoyed collaborating with Prof. [Zhengfeng Ji](https://scholar.google.com/citations?user=2uXdu7AAAAAJ) and Prof. [Jian Li](https://people.iiis.tsinghua.edu.cn/~jianli/) at Tsinghua University.
+Currently, I am visiting Carnegie Mellon University, where I am fortunate to be advised by Prof. [Ryan O'Donnell](https://www.cs.cmu.edu/~odonnell/), working on high-dimensional expanders (HDXs) and their applications to probabilistically checkable proofs (PCPs). Prior to this, I had the great pleasure of working with Prof. [Huacheng Yu](https://www.cs.princeton.edu/~hy2/) on streaming lower bounds. I have also greatly enjoyed collaborating with Prof. [Zhengfeng Ji](https://scholar.google.com/citations?user=2uXdu7AAAAAJ) and Prof. [Jian Li](https://people.iiis.tsinghua.edu.cn/~jianli/) at Tsinghua University.
 
 I am broadly interested in **theoretical computer science** and **discrete mathematics**. What fascinates me most is the rich interplay between the two, and I am actively exploring problems at their interface. My current research interests include:
 - Streaming lower bounds and communication complexity
@@ -27,11 +27,11 @@ I am broadly interested in **theoretical computer science** and **discrete mathe
 
 # News
 
-- *2026.07*{: .news-date} &nbsp;  &nbsp;     Our paper on turnstile streaming vs. linear sketching is accepted to **FOCS 2026**!
-- *2026.05*{: .news-date} &nbsp;  &nbsp;     Our paper on the lattice isomorphism problem is accepted to **CRYPTO 2026**!
-- *2026.04*{: .news-date} &nbsp;  &nbsp;     Our paper on qubit minimization for quantum circuits is accepted to **TQC 2026**!
-- *2026.02*{: .news-date} &nbsp;  &nbsp;     Started a research internship at **Carnegie Mellon University**, advised by Prof. [Ryan O'Donnell](https://www.cs.cmu.edu/~odonnell/).
-- *2025.07*{: .news-date} &nbsp;  &nbsp;     Our paper on adaptivity gaps for stochastic probing is accepted to **FOCS 2025**!
+- *2026.07:*{: .news-date} &nbsp;  &nbsp;     Our paper on turnstile streaming vs. linear sketching is accepted to **FOCS 2026**!
+- *2026.05:*{: .news-date} &nbsp;  &nbsp;     Our paper on the lattice isomorphism problem is accepted to **CRYPTO 2026**!
+- *2026.04:*{: .news-date} &nbsp;  &nbsp;     Our paper on qubit minimization for quantum circuits is accepted to **TQC 2026**!
+- *2026.02:*{: .news-date} &nbsp;  &nbsp;     Started a research internship at **Carnegie Mellon University**, advised by Prof. [Ryan O'Donnell](https://www.cs.cmu.edu/~odonnell/).
+- *2025.07:*{: .news-date} &nbsp;  &nbsp;     Our paper on adaptivity gaps for stochastic probing is accepted to **FOCS 2025**!
 
 # Publications
 
