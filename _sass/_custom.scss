@@ -1,8 +1,7 @@
 /* ==========================================================================
    Custom typography & color accents
    (self-hosted fonts: EB Garamond for headings — matching the CV — with a
-    Georgia body; color A = deep sky blue, color B = warm amber, used as a
-    pair; indigo→violet→amber gradient for flourishes)
+    Georgia body; azure links and black accents on white)
    ========================================================================== */
 
 /* Self-hosted variable fonts */
@@ -116,21 +115,11 @@ button:focus:not(:focus-visible) {
   color: $color-a;
 }
 
-/* Section headings — larger Garamond with a gradient underline flourish */
+/* Section headings — larger Garamond */
 .page__content h1 {
   font-size: 1.7em;
   letter-spacing: 0.01em;
   color: $accent-ink;
-
-  &::after {
-    content: "";
-    display: block;
-    width: 64px;
-    height: 4px;
-    margin-top: 0.22em;
-    border-radius: 2px;
-    background: $accent-gradient;
-  }
 }
 
 .page__content h2,
@@ -138,7 +127,7 @@ button:focus:not(:focus-visible) {
   color: $accent-ink;
 }
 
-/* Content links — A at rest; hover pairs A with B (amber text, A→B underline) */
+/* Content links — azure at rest with a soft underline; black on hover */
 .page__content a:not(.btn) {
   text-decoration: none;
   background-image: linear-gradient(90deg, rgba($color-a, 0.4), rgba($color-a, 0.4));
@@ -148,9 +137,9 @@ button:focus:not(:focus-visible) {
   transition: color 0.15s ease-in-out, background-size 0.15s ease-in-out;
 
   &:hover {
-    color: $color-b;
-    background-image: $accent-gradient-warm;
-    background-size: 100% 2.5px;
+    color: #000;
+    background-image: linear-gradient(90deg, #000, #000);
+    background-size: 100% 2px;
   }
 }
 
@@ -164,26 +153,18 @@ button:focus:not(:focus-visible) {
   font-size: 0.82em;
 }
 
-/* Leading dates in News / Education / Awards lists — small round A badges,
-   sitting next to the B-colored bullets */
-.page__content li > em:first-child {
+/* Leading dates in the News list (`*2026.07*{: .news-date}`) — plain text */
+.page__content li > em.news-date {
   font-style: normal;
-  font-family: $monospace;
-  font-size: 0.78em;
-  color: $color-a-deep;
-  background: $color-a-wash;
-  padding: 0.14em 0.55em;
-  border-radius: 999px;
   white-space: nowrap;
 }
 
-/* Colored list bullets — B */
+/* List bullets — black */
 .page__content li::marker {
-  color: $color-b;
+  color: #000;
 }
 
-/* Publication entries (list items led by a bold title) — hover pairs
-   a B accent bar with a pale A wash */
+/* Publication entries (list items led by a bold title) — subtle hover accent */
 .page__content li:has(> strong:first-child) {
   border-left: 3px solid transparent;
   border-radius: 4px;
@@ -192,7 +173,7 @@ button:focus:not(:focus-visible) {
   transition: border-color 0.15s ease-in-out, background-color 0.15s ease-in-out;
 
   &:hover {
-    border-left-color: $color-b;
+    border-left-color: #000;
     background-color: rgba($color-a, 0.05);
   }
 }
@@ -219,7 +200,16 @@ button:focus:not(:focus-visible) {
 .edu-date {
   float: right;
   font-size: 0.9em;
-  color: mix($text-color, #fff, 62%); /* same gray as .award-note */
+  color: mix($text-color, #fff, 62%);
+  white-space: nowrap;
+  margin-left: 0.8em;
+}
+
+/* Right-aligned years in the Honors and Awards list */
+.page__content li > .award-year {
+  float: right;
+  font-size: 0.9em;
+  color: mix($text-color, #fff, 62%);
   white-space: nowrap;
   margin-left: 0.8em;
 }
@@ -227,14 +217,6 @@ button:focus:not(:focus-visible) {
 /* mirror asymmetric logos (e.g. the SCS dragon) */
 .edu-logo-flip {
   transform: scaleX(-1);
-}
-
-/* Awards — bold title line with a subdued issuer/year line below */
-.award-note {
-  display: inline-block;
-  color: mix($text-color, #fff, 62%);
-  font-size: 0.9em;
-  margin-top: 0.08em;
 }
 
 /* Text selection — pale A */
@@ -251,8 +233,7 @@ button:focus:not(:focus-visible) {
   z-index: 100;
   height: 3px;
   width: 0;
-  background: $accent-gradient;
-  background-size: 100vw 100%; /* gradient spans the viewport, bar reveals it */
+  background: $color-a;
   pointer-events: none;
 }
 
@@ -285,8 +266,8 @@ button:focus:not(:focus-visible) {
   }
 
   &:hover {
-    border-color: mix($color-b, #fff, 55%);
-    box-shadow: 0 4px 16px rgba($color-b, 0.35);
+    border-color: #000;
+    box-shadow: 0 4px 16px rgba(#000, 0.2);
     transform: translateY(-2px);
   }
 
