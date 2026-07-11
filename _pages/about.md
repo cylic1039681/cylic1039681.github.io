@@ -66,7 +66,7 @@ I am broadly interested in **theoretical computer science** and **discrete mathe
 
 - National Scholarship, the highest honor for undergraduates in China, top 0.5% <span class="award-year">2024 & 2025</span>
 - Academic Excellence Scholarship, Tsinghua University <span class="award-year">2024 & 2025</span>
-- Freshman Scholarship (Second Prize), Tsinghua University <span class="award-year">2023</span>
+- Freshman Scholarship, Tsinghua University <span class="award-year">2023</span>
 - Merit Award, S.-T. Yau College Student Mathematics Contest (Algebra and Number Theory) <span class="award-year">2023</span>
 - Merit Award, S.-T. Yau College Student Mathematics Contest (Probability and Statistics) <span class="award-year">2023</span>
 - Merit Award, Alibaba Global Mathematics Competition <span class="award-year">2022</span>
@@ -79,23 +79,27 @@ I am broadly interested in **theoretical computer science** and **discrete mathe
 <div class="edu-entry">
   <div class="edu-text">
     <span class="edu-date">2023.09 – 2027.06 (expected)</span>
-    <strong>Tsinghua University</strong>, Beijing, China <br>
-    B.Eng., Institute for Interdisciplinary Information Sciences (IIIS, Yao Class) <br>
-    Overall GPA: 4.00/4.00, Rank: <strong>1/91</strong> <br>
-    TOEFL：115/120
+    <strong>Tsinghua University</strong>, Beijing, China.
+    <ul class="edu-details">
+      <li>B.Eng., Institute for Interdisciplinary Information Sciences (IIIS, Yao Class)</li>
+      <li>Overall GPA: 4.00/4.00, Rank: <strong>1/91</strong></li>
+      <li>TOEFL: 115/120</li>
+    </ul>
   </div>
 </div>
 
 <div class="edu-entry">
   <div class="edu-text">
     <span class="edu-date">2020.09 – 2023.06</span>
-    <strong>Shanghai High School</strong>, Shanghai, China <br>
-    Mathematics class <br>
-    Diamond Award (×2), top 10 students each year
+    <strong>Shanghai High School</strong>, Shanghai, China.
+    <ul class="edu-details">
+      <li>Mathematics class</li>
+      <li>Diamond Award (×2), top 10/400 each year</li>
+    </ul>
   </div>
 </div>
 
-# Service
+# Services
 
-- Reviewer for *The Electronic Journal of Combinatorics*, 2026.
-- Reviewer for *International Cryptology Conference* (CRYPTO), 2025.
+- Reviewer for *The Electronic Journal of Combinatorics* (EJC)<span class="award-year">2026</span>
+- Reviewer for *International Cryptology Conference* (CRYPTO) <span class="award-year">2025</span>

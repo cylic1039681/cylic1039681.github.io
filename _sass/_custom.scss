@@ -131,7 +131,8 @@ button:focus:not(:focus-visible) {
   color: $accent-ink;
 }
 
-/* Content links — azure at rest with a soft underline; black on hover */
+/* Content links — azure at rest with a soft underline; black on hover.
+   Colors come from the theme's link variables (visited links go 25% lighter) */
 .page__content a:not(.btn) {
   text-decoration: none;
   background-image: linear-gradient(90deg, rgba($color-a, 0.4), rgba($color-a, 0.4));
@@ -168,11 +169,14 @@ button:focus:not(:focus-visible) {
   color: #000;
 }
 
-/* Publication entries (list items led by a bold title) — subtle hover accent */
-.page__content li:has(> strong:first-child) {
+/* Publication entries (top-level list items led by a bold title) — subtle hover
+   accent. Scoped to direct children of the content so nested lists (e.g. the
+   Education details) are not affected. */
+.page__content > ul > li:has(> strong:first-child) {
   border-left: 3px solid transparent;
   border-radius: 4px;
-  padding-left: 0.6em;
+  /* margin and padding cancel out so the text stays aligned with other lists */
+  padding-left: 0.75em;
   margin-left: -0.75em;
   transition: border-color 0.15s ease-in-out, background-color 0.15s ease-in-out;
 
@@ -199,6 +203,17 @@ button:focus:not(:focus-visible) {
 
 .edu-text {
   flex: 1;
+}
+
+/* detail bullets inside an education entry — compact spacing, bullets aligned
+   with the theme's top-level lists (2em) */
+.edu-details {
+  margin: 0.25em 0 0;
+  padding-inline-start: 2em;
+
+  li {
+    margin-bottom: 0.15em;
+  }
 }
 
 .edu-date {
