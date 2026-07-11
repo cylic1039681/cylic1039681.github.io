@@ -9,7 +9,7 @@
 title                    : "Yinchen Liu (刘胤辰)"
 # non-empty description required: otherwise jekyll-github-metadata substitutes the GitHub repo tagline
 description              : "Yinchen Liu's academic homepage — theoretical computer science at IIIS (Yao Class), Tsinghua University."
-repository               : "cylic1039681/cylic1039681.github.io"
+repository               : "YinchenLiu05/YinchenLiu05.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -38,7 +38,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "cylic1039681"
+  github           : "YinchenLiu05"
   google_plus      :
   keybase          :
   instagram        :

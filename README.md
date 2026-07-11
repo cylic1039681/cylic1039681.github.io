@@ -1,8 +1,8 @@
-# cylic1039681.github.io
+# YinchenLiu05.github.io
 
 Personal academic homepage of **Yinchen Liu (刘胤辰)** — undergraduate at IIIS (Yao Class), Tsinghua University.
 
-Live at <https://cylic1039681.github.io>.
+Live at <https://yinchenliu05.github.io>.
 
 ## Local development
 
