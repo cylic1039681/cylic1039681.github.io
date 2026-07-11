@@ -67,8 +67,8 @@ I am broadly interested in **theoretical computer science** and **discrete mathe
 - National Scholarship, the highest honor for undergraduates in China, top 0.5% <span class="award-year">2024 & 2025</span>
 - Academic Excellence Scholarship, Tsinghua University <span class="award-year">2024 & 2025</span>
 - Freshman Scholarship (Second Prize), Tsinghua University <span class="award-year">2023</span>
-- Merit Award, S.-T. Yau College Student Mathematics Contest, algebra track <span class="award-year">2023</span>
-- Merit Award, S.-T. Yau College Student Mathematics Contest, probability and statistics track <span class="award-year">2023</span>
+- Merit Award, S.-T. Yau College Student Mathematics Contest (Algebra and Number Theory) <span class="award-year">2023</span>
+- Merit Award, S.-T. Yau College Student Mathematics Contest (Probability and Statistics) <span class="award-year">2023</span>
 - Merit Award, Alibaba Global Mathematics Competition <span class="award-year">2022</span>
 - China Team Selection Test (TST) for IMO, rank 9 <span class="award-year">2021</span>
 - Gold Medal, Chinese Mathematical Olympiad (CMO), rank 16 <span class="award-year">2021</span>
@@ -81,7 +81,8 @@ I am broadly interested in **theoretical computer science** and **discrete mathe
     <span class="edu-date">2023.09 – 2027.06 (expected)</span>
     <strong>Tsinghua University</strong>, Beijing, China <br>
     B.Eng., Institute for Interdisciplinary Information Sciences (IIIS, Yao Class) <br>
-    Overall GPA: 4.00/4.00, Rank: **1/91**
+    Overall GPA: 4.00/4.00, Rank: <strong>1/91</strong> <br>
+    TOEFL 115/120
   </div>
 </div>
 
@@ -96,4 +97,4 @@ I am broadly interested in **theoretical computer science** and **discrete mathe
 # Service
 
 - Reviewer for *The Electronic Journal of Combinatorics*, 2026.
-- Reviewer for *International Cryptology Conference* (**CRYPTO**), 2025.
+- Reviewer for *International Cryptology Conference* (CRYPTO), 2025.

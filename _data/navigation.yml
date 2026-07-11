@@ -17,6 +17,3 @@ main:
 
   - title: "Service"
     url: "/#service"
-
-  - title: "Misc"
-    url: "/misc/"

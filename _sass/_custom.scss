@@ -80,6 +80,10 @@ button:focus:not(:focus-visible) {
   .sidebar .author__name {
     text-align: center;
   }
+
+  .sidebar .author__bio {
+    text-align: center;
+  }
 }
 
 /* Sidebar bio — body serif instead of the theme's sans */
