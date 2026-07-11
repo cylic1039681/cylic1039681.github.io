@@ -82,7 +82,7 @@ I am broadly interested in **theoretical computer science** and **discrete mathe
     <strong>Tsinghua University</strong>, Beijing, China <br>
     B.Eng., Institute for Interdisciplinary Information Sciences (IIIS, Yao Class) <br>
     Overall GPA: 4.00/4.00, Rank: <strong>1/91</strong> <br>
-    TOEFL 115/120
+    TOEFL：115/120
   </div>
 </div>
 
