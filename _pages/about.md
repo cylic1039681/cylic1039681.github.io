@@ -90,7 +90,8 @@ I am broadly interested in **theoretical computer science** and **discrete mathe
   <div class="edu-text">
     <span class="edu-date">2020.09 – 2023.06</span>
     <strong>Shanghai High School</strong>, Shanghai, China <br>
-    Mathematics class
+    Mathematics class <br>
+    Two-time recipient of the Diamond Award, top 10 students each year.
   </div>
 </div>
 
