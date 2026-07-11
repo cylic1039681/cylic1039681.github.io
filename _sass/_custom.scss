@@ -96,6 +96,12 @@ button:focus:not(:focus-visible) {
   font-family: $global-font-family;
 }
 
+/* Center the masthead nav row */
+.greedy-nav .visible-links {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Masthead nav links — body serif to match the content */
 .masthead__menu-item:not(.masthead__menu-home-item) a {
   font-family: $global-font-family;
