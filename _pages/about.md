@@ -39,31 +39,31 @@ I am broadly interested in **theoretical computer science** and **discrete mathe
 
 - **Turnstile Streaming Algorithms Might (Still) as Well Be Linear Sketches, for Polynomial-Length Streams** <br>
   Cheng Jiang, **Yinchen Liu**, Huacheng Yu <br>
-  *To appear in the IEEE Symposium on Foundations of Computer Science (**FOCS**), 2026.* <br>
+  *To appear in the IEEE Symposium on Foundations of Computer Science <span class="venue">(<strong>FOCS</strong>)</span>, 2026.* <br>
   [[arXiv](https://arxiv.org/abs/2604.22052)] [[video](https://www.youtube.com/watch?v=iJFtVe2HqM4)]
 
 - **On the Complexity of Minimizing Qubits in Polynomial-Encoded Quantum Circuits** <br>
   Zhengfeng Ji, **Yinchen Liu**, Zhe'ou Zhou <br>
-  *To appear in the Conference on the Theory of Quantum Computation, Communication and Cryptography (**TQC**), 2026.* <br>
+  *To appear in the Conference on the Theory of Quantum Computation, Communication and Cryptography <span class="venue">(<strong>TQC</strong>)</span>, 2026.* <br>
   [[arXiv](https://arxiv.org/abs/2606.18201)]
 
 - **Exploiting the Complexity of Lattice Isomorphism Problem via Irreducible Decomposition** <br>
   Kaijie Jiang, **Yinchen Liu** <br>
-  *To appear in the International Cryptology Conference (**CRYPTO**), 2026.* <br>
+  *To appear in the International Cryptology Conference <span class="venue">(<strong>CRYPTO</strong>)</span>, 2026.* <br>
   [[eprint](https://eprint.iacr.org/2026/1139)]
 
 - **Adaptivity Gaps for Stochastic Probing with Subadditive Functions** <br>
   Jian Li, **Yinchen Liu**, Yiran Zhang <br>
-  *In the IEEE Symposium on Foundations of Computer Science (**FOCS**), 2025.* <br>
+  *In the IEEE Symposium on Foundations of Computer Science <span class="venue">(<strong>FOCS</strong>)</span>, 2025.* <br>
   [[arXiv](http://arxiv.org/abs/2504.15547)] [[video](https://www.youtube.com/watch?v=0M3o-TaVdtY)]
 
 - **On the Positive and Negative $p$-Energies of Graphs under Edge Addition** <br>
   Quanyu Tang, **Yinchen Liu**, Wei Wang <br>
-  *In **Discrete Applied Mathematics**, vol. 388, pp. 25–33, 2026.* <br>
+  *In Discrete Applied Mathematics, vol. 388, pp. 25–33, 2026.* <br>
   [[journal](https://www.sciencedirect.com/science/article/pii/S0166218X26001253)] [[arXiv](https://arxiv.org/abs/2410.09830)]
 
 # Honors and Awards
-
+- Merit Student, Tsinghua University <span class="award-year">2026</span>
 - National Scholarship, the highest honor for undergraduates in China, top 0.5% <span class="award-year">2024 & 2025</span>
 - Academic Excellence Scholarship, Tsinghua University <span class="award-year">2024 & 2025</span>
 - Freshman Scholarship, Tsinghua University <span class="award-year">2023</span>
@@ -101,5 +101,5 @@ I am broadly interested in **theoretical computer science** and **discrete mathe
 
 # Services
 
-- Reviewer for *The Electronic Journal of Combinatorics* (EJC)<span class="award-year">2026</span>
-- Reviewer for *International Cryptology Conference* (CRYPTO) <span class="award-year">2025</span>
+- Reviewer for *The Electronic Journal of Combinatorics* <span class="venue">(<strong>EJC</strong>)</span> <span class="award-year">2026</span>
+- Reviewer for *International Cryptology Conference* <span class="venue">(<strong>CRYPTO</strong>), 2025</span> <span class="award-year">2025</span>

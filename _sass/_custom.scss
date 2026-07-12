@@ -169,6 +169,12 @@ button:focus:not(:focus-visible) {
   color: #000;
 }
 
+/* Venue abbreviations in the italic citation line — the whole (ABBR) is upright
+   (roman) so it stands out; only the abbreviation itself is bold */
+.page__content .venue {
+  font-style: normal;
+}
+
 /* Publication entries (top-level list items led by a bold title) — subtle hover
    accent. Scoped to direct children of the content so nested lists (e.g. the
    Education details) are not affected. */
