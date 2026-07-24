@@ -29,7 +29,7 @@ I am broadly interested in **theoretical computer science** and **discrete mathe
 
 - *2026.07:*{: .news-date} &nbsp;  &nbsp;     Our paper on turnstile streaming vs. linear sketching is accepted to **FOCS 2026**!
 - *2026.05:*{: .news-date} &nbsp;  &nbsp;     Our paper on the lattice isomorphism problem is accepted to **CRYPTO 2026**!
-- *2026.04:*{: .news-date} &nbsp;  &nbsp;     Our paper on qubit minimization for quantum circuits is accepted to **TQC 2026**!
+- *2026.04:*{: .news-date} &nbsp;  &nbsp;     Our paper on the circuit width problem is accepted to **TQC 2026**!
 - *2026.02:*{: .news-date} &nbsp;  &nbsp;     Started a research internship at **Carnegie Mellon University**, advised by Prof. [Ryan O'Donnell](https://www.cs.cmu.edu/~odonnell/).
 - *2025.07:*{: .news-date} &nbsp;  &nbsp;     Our paper on adaptivity gaps for stochastic probing is accepted to **FOCS 2025**!
 
@@ -42,9 +42,9 @@ I am broadly interested in **theoretical computer science** and **discrete mathe
   *To appear in the IEEE Symposium on Foundations of Computer Science <span class="venue">(<strong>FOCS</strong>)</span>, 2026.* <br>
   [[arXiv](https://arxiv.org/abs/2604.22052)] [[video](https://www.youtube.com/watch?v=iJFtVe2HqM4)]
 
-- **On the Complexity of Minimizing Qubits in Polynomial-Encoded Quantum Circuits** <br>
+- **On the Complexity of the Circuit Width Problem** <br>
   Zhengfeng Ji, **Yinchen Liu**, Zhe'ou Zhou <br>
-  *To appear in the Conference on the Theory of Quantum Computation, Communication and Cryptography <span class="venue">(<strong>TQC</strong>)</span>, 2026.* <br>
+  *To appear in <span class="venue"><strong>TQC</strong></span> 2026.* <br>
   [[arXiv](https://arxiv.org/abs/2606.18201)]
 
 - **Exploiting the Complexity of Lattice Isomorphism Problem via Irreducible Decomposition** <br>
