@@ -12,9 +12,9 @@ redirect_from:
 
 # About Me
 
-I'm a junior undergraduate student (from 2023 Fall) at the [Institute for Interdisciplinary Information Sciences (IIIS, Yao Class)](https://iiis.tsinghua.edu.cn/en/), Tsinghua University. 
+I'm a senior undergraduate student (from 2023 Fall) at the [Institute for Interdisciplinary Information Sciences (IIIS, Yao Class)](https://iiis.tsinghua.edu.cn/en/), Tsinghua University. 
 
-Currently, I am visiting Carnegie Mellon University, where I am fortunate to be advised by Prof. [Ryan O'Donnell](https://www.cs.cmu.edu/~odonnell/), working on high-dimensional expanders (HDXs) and their applications to probabilistically checkable proofs (PCPs). Prior to this, I had the great pleasure of working with Prof. [Huacheng Yu](https://www.cs.princeton.edu/~hy2/) on streaming lower bounds. I have also greatly enjoyed collaborating with Prof. [Zhengfeng Ji](https://scholar.google.com/citations?user=2uXdu7AAAAAJ) and Prof. [Jian Li](https://people.iiis.tsinghua.edu.cn/~jianli/) at Tsinghua University.
+In Spring 2026, I was a visiting student at Carnegie Mellon University, where I was fortunate to be advised by Prof. [Ryan O'Donnell](https://www.cs.cmu.edu/~odonnell/), working on high-dimensional expanders (HDXs) and their applications to probabilistically checkable proofs (PCPs). Prior to this, I had the great pleasure of working with Prof. [Huacheng Yu](https://www.cs.princeton.edu/~hy2/) on streaming lower bounds. I have also greatly enjoyed collaborating with Prof. [Zhengfeng Ji](https://scholar.google.com/citations?user=2uXdu7AAAAAJ) and Prof. [Jian Li](https://people.iiis.tsinghua.edu.cn/~jianli/) at Tsinghua University.
 
 I am broadly interested in **theoretical computer science** and **discrete mathematics**. What fascinates me most is the rich interplay between the two, and I am actively exploring problems at their interface. My current research interests include:
 - Streaming lower bounds and communication complexity
@@ -63,6 +63,7 @@ I am broadly interested in **theoretical computer science** and **discrete mathe
   [[journal](https://www.sciencedirect.com/science/article/pii/S0166218X26001253)] [[arXiv](https://arxiv.org/abs/2410.09830)]
 
 # Honors and Awards
+- Yao Award (Silver), awarded to 3 students in Yao Class <span class="award-year">2026</span>
 - Merit Student, Tsinghua University <span class="award-year">2026</span>
 - National Scholarship, the highest honor for undergraduates in China, top 0.5% <span class="award-year">2024 & 2025</span>
 - Academic Excellence Scholarship, Tsinghua University <span class="award-year">2024 & 2025</span>
